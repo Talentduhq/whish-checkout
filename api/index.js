@@ -13,7 +13,7 @@ export default async function handler(req, res) {
   };
 
   try {
-    const response = await fetch('https://lb.sandbox.whish.money/itel-service/api/payment/whish', {
+    const response = await fetch('https://whish.money/itel-service/api/payment/whish', {
       method: 'POST',
       headers: {
         'channel': '10195592',
